@@ -1,6 +1,6 @@
 # Rpfanet_Gnn
 
-This project visualize the real-time object detection and tracking with point clouds only. It uses feature-self-attention mechanism to improve the accuracy of the detection. 
+This project visualizes the real-time object detection and tracking with point clouds only. It uses feature-self-attention mechanism to improve the accuracy of the detection. 
 
 ## 1.Notice
 Before you compile this project, you need to put the rosbag into the proper directory.
