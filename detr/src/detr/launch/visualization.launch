@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find detr)/rviz/visualization.rviz"/>
+
+    <node pkg="rosbag" type="play" name="player" output="log" args="-l /home/ez/project/detr/bag/2024-04-16-16-27-12.bag" />
+
+
+</launch>

@@ -1,0 +1,770 @@
+2024-05-10 13:29:10,509   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_71.pth to GPU
+2024-05-10 13:29:10,560   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:29:10,563   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:29:10,564   INFO  *************** EPOCH 71 EVALUATION *****************
+2024-05-10 13:29:24,088   INFO  *************** Performance of EPOCH 71 *****************
+2024-05-10 13:29:24,088   INFO  Generate label finished(sec_per_example: 0.2415 second).
+2024-05-10 13:29:24,088   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:29:24,088   INFO  recall_rcnn_0.3: 0.438163
+2024-05-10 13:29:24,088   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:29:24,088   INFO  recall_rcnn_0.5: 0.282686
+2024-05-10 13:29:24,088   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:29:24,089   INFO  recall_rcnn_0.7: 0.070671
+2024-05-10 13:29:24,089   INFO  Average predicted number of objects(56 samples): 17.500
+2024-05-10 13:29:24,151   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:12.2850, 13.1501, 12.5332
+bev  AP:20.0540, 17.7804, 16.7426
+3d   AP:2.3209, 3.0303, 3.0303
+aos  AP:12.02, 12.91, 12.36
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:4.6288, 5.1119, 4.6577
+bev  AP:14.7428, 12.4452, 11.7433
+3d   AP:1.0146, 1.1154, 1.0394
+aos  AP:4.32, 4.90, 4.39
+Car AP@0.70, 0.50, 0.50:
+bbox AP:12.2850, 13.1501, 12.5332
+bev  AP:34.4011, 27.8632, 26.9961
+3d   AP:16.3566, 15.6729, 15.0367
+aos  AP:12.02, 12.91, 12.36
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:4.6288, 5.1119, 4.6577
+bev  AP:30.7875, 24.8331, 23.1057
+3d   AP:10.1154, 9.1996, 8.7555
+aos  AP:4.32, 4.90, 4.39
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.38, 0.38, 0.38
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.5139, 0.5139, 0.5139
+bev  AP:0.3611, 0.3611, 0.3611
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.21, 0.21, 0.21
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.38, 0.38, 0.38
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.5139, 0.5139, 0.5139
+bev  AP:0.5139, 0.5139, 0.5139
+3d   AP:0.5139, 0.5139, 0.5139
+aos  AP:0.21, 0.21, 0.21
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:29:24,151   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_71/val
+2024-05-10 13:29:24,151   INFO  ****************Evaluation done.*****************
+2024-05-10 13:29:24,156   INFO  Epoch 71 has been evaluated
+2024-05-10 13:29:24,156   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_72.pth to GPU
+2024-05-10 13:29:24,206   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:29:24,209   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:29:24,210   INFO  *************** EPOCH 72 EVALUATION *****************
+2024-05-10 13:29:37,799   INFO  *************** Performance of EPOCH 72 *****************
+2024-05-10 13:29:37,800   INFO  Generate label finished(sec_per_example: 0.2427 second).
+2024-05-10 13:29:37,800   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:29:37,800   INFO  recall_rcnn_0.3: 0.431095
+2024-05-10 13:29:37,800   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:29:37,800   INFO  recall_rcnn_0.5: 0.265018
+2024-05-10 13:29:37,800   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:29:37,800   INFO  recall_rcnn_0.7: 0.067138
+2024-05-10 13:29:37,800   INFO  Average predicted number of objects(56 samples): 17.089
+2024-05-10 13:29:37,869   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:13.0192, 12.5999, 11.6746
+bev  AP:21.6463, 19.6425, 17.0456
+3d   AP:4.5179, 3.4091, 3.0303
+aos  AP:12.70, 12.30, 11.48
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:6.2180, 5.7244, 5.0547
+bev  AP:15.4490, 12.9787, 11.9425
+3d   AP:2.7197, 1.8171, 1.5802
+aos  AP:5.95, 5.32, 4.74
+Car AP@0.70, 0.50, 0.50:
+bbox AP:13.0192, 12.5999, 11.6746
+bev  AP:32.5664, 26.7157, 25.6320
+3d   AP:18.7135, 16.0831, 15.4577
+aos  AP:12.70, 12.30, 11.48
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:6.2180, 5.7244, 5.0547
+bev  AP:28.2393, 22.4681, 21.0474
+3d   AP:13.0258, 10.0429, 9.2173
+aos  AP:5.95, 5.32, 4.74
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.33, 0.33, 0.33
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.6256, 0.6256, 0.6256
+bev  AP:0.6256, 0.6256, 0.6256
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.28, 0.28, 0.28
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.33, 0.33, 0.33
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.6256, 0.6256, 0.6256
+bev  AP:0.6256, 0.6256, 0.6256
+3d   AP:0.6256, 0.6256, 0.6256
+aos  AP:0.28, 0.28, 0.28
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:29:37,869   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_72/val
+2024-05-10 13:29:37,869   INFO  ****************Evaluation done.*****************
+2024-05-10 13:29:37,873   INFO  Epoch 72 has been evaluated
+2024-05-10 13:29:37,874   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_73.pth to GPU
+2024-05-10 13:29:37,922   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:29:37,925   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:29:37,926   INFO  *************** EPOCH 73 EVALUATION *****************
+2024-05-10 13:29:51,524   INFO  *************** Performance of EPOCH 73 *****************
+2024-05-10 13:29:51,524   INFO  Generate label finished(sec_per_example: 0.2428 second).
+2024-05-10 13:29:51,524   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:29:51,524   INFO  recall_rcnn_0.3: 0.441696
+2024-05-10 13:29:51,525   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:29:51,525   INFO  recall_rcnn_0.5: 0.279152
+2024-05-10 13:29:51,525   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:29:51,525   INFO  recall_rcnn_0.7: 0.074205
+2024-05-10 13:29:51,525   INFO  Average predicted number of objects(56 samples): 17.643
+2024-05-10 13:29:51,587   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:13.0756, 12.8410, 12.5795
+bev  AP:22.2362, 19.3573, 18.6859
+3d   AP:2.2785, 2.3905, 2.2727
+aos  AP:12.56, 12.53, 12.31
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:6.4044, 6.7205, 5.4478
+bev  AP:16.3321, 13.5339, 12.7728
+3d   AP:1.2001, 1.2797, 1.1201
+aos  AP:5.91, 6.28, 5.08
+Car AP@0.70, 0.50, 0.50:
+bbox AP:13.0756, 12.8410, 12.5795
+bev  AP:34.7126, 27.8475, 26.8256
+3d   AP:18.4057, 16.8203, 16.1510
+aos  AP:12.56, 12.53, 12.31
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:6.4044, 6.7205, 5.4478
+bev  AP:30.5060, 23.7206, 22.2309
+3d   AP:12.7324, 10.8356, 9.9120
+aos  AP:5.91, 6.28, 5.08
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.38, 0.38, 0.38
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.5882, 0.5882, 0.5882
+bev  AP:0.5882, 0.5882, 0.5882
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.23, 0.23, 0.23
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.38, 0.38, 0.38
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.5882, 0.5882, 0.5882
+bev  AP:0.5882, 0.5882, 0.5882
+3d   AP:0.5882, 0.5882, 0.5882
+aos  AP:0.23, 0.23, 0.23
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:29:51,587   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_73/val
+2024-05-10 13:29:51,587   INFO  ****************Evaluation done.*****************
+2024-05-10 13:29:51,591   INFO  Epoch 73 has been evaluated
+2024-05-10 13:29:51,591   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_74.pth to GPU
+2024-05-10 13:29:51,632   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:29:51,635   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:29:51,636   INFO  *************** EPOCH 74 EVALUATION *****************
+2024-05-10 13:30:05,264   INFO  *************** Performance of EPOCH 74 *****************
+2024-05-10 13:30:05,264   INFO  Generate label finished(sec_per_example: 0.2434 second).
+2024-05-10 13:30:05,264   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:30:05,264   INFO  recall_rcnn_0.3: 0.455830
+2024-05-10 13:30:05,264   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:30:05,264   INFO  recall_rcnn_0.5: 0.282686
+2024-05-10 13:30:05,265   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:30:05,265   INFO  recall_rcnn_0.7: 0.077739
+2024-05-10 13:30:05,265   INFO  Average predicted number of objects(56 samples): 17.839
+2024-05-10 13:30:05,332   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:12.2917, 12.1009, 11.9022
+bev  AP:21.8925, 18.7832, 17.6705
+3d   AP:4.1354, 3.2887, 2.8283
+aos  AP:12.04, 11.76, 11.60
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:5.8245, 5.7476, 4.9517
+bev  AP:16.8592, 13.0330, 12.3810
+3d   AP:2.5561, 1.9370, 1.6673
+aos  AP:5.58, 5.33, 4.59
+Car AP@0.70, 0.50, 0.50:
+bbox AP:12.2917, 12.1009, 11.9022
+bev  AP:34.0895, 27.6808, 26.1906
+3d   AP:17.7439, 16.1182, 15.1990
+aos  AP:12.04, 11.76, 11.60
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:5.8245, 5.7476, 4.9517
+bev  AP:29.4883, 23.3346, 21.7511
+3d   AP:11.7080, 9.9731, 9.0363
+aos  AP:5.58, 5.33, 4.59
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.23, 0.23, 0.23
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.4256, 0.4256, 0.4256
+bev  AP:0.4256, 0.4256, 0.4256
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.17, 0.17, 0.17
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.23, 0.23, 0.23
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.4256, 0.4256, 0.4256
+bev  AP:0.4256, 0.4256, 0.4256
+3d   AP:0.4256, 0.4256, 0.4256
+aos  AP:0.17, 0.17, 0.17
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:30:05,332   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_74/val
+2024-05-10 13:30:05,333   INFO  ****************Evaluation done.*****************
+2024-05-10 13:30:05,338   INFO  Epoch 74 has been evaluated
+2024-05-10 13:30:05,338   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_75.pth to GPU
+2024-05-10 13:30:05,381   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:30:05,383   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:30:05,385   INFO  *************** EPOCH 75 EVALUATION *****************
+2024-05-10 13:30:18,972   INFO  *************** Performance of EPOCH 75 *****************
+2024-05-10 13:30:18,972   INFO  Generate label finished(sec_per_example: 0.2426 second).
+2024-05-10 13:30:18,972   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:30:18,972   INFO  recall_rcnn_0.3: 0.455830
+2024-05-10 13:30:18,972   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:30:18,972   INFO  recall_rcnn_0.5: 0.279152
+2024-05-10 13:30:18,972   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:30:18,972   INFO  recall_rcnn_0.7: 0.077739
+2024-05-10 13:30:18,972   INFO  Average predicted number of objects(56 samples): 18.554
+2024-05-10 13:30:19,038   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:14.2710, 13.7247, 12.8403
+bev  AP:22.0233, 18.6567, 17.2895
+3d   AP:4.4733, 3.6313, 3.9423
+aos  AP:14.17, 13.52, 12.69
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:7.4964, 6.9067, 5.6851
+bev  AP:15.9361, 13.0453, 12.0789
+3d   AP:2.7098, 2.1494, 2.1119
+aos  AP:7.33, 6.74, 5.49
+Car AP@0.70, 0.50, 0.50:
+bbox AP:14.2710, 13.7247, 12.8403
+bev  AP:33.8686, 26.8080, 25.7957
+3d   AP:17.3505, 15.1967, 14.8264
+aos  AP:14.17, 13.52, 12.69
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:7.4964, 6.9067, 5.6851
+bev  AP:29.5810, 22.8175, 21.6386
+3d   AP:11.8173, 9.7658, 8.8947
+aos  AP:7.33, 6.74, 5.49
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.25, 0.25, 0.25
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.4205, 0.4205, 0.4205
+bev  AP:0.4205, 0.4205, 0.4205
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.17, 0.17, 0.17
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.25, 0.25, 0.25
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.4205, 0.4205, 0.4205
+bev  AP:0.4205, 0.4205, 0.4205
+3d   AP:0.4205, 0.4205, 0.4205
+aos  AP:0.17, 0.17, 0.17
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:30:19,038   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_75/val
+2024-05-10 13:30:19,038   INFO  ****************Evaluation done.*****************
+2024-05-10 13:30:19,044   INFO  Epoch 75 has been evaluated
+2024-05-10 13:30:19,044   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_76.pth to GPU
+2024-05-10 13:30:19,090   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:30:19,093   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:30:19,094   INFO  *************** EPOCH 76 EVALUATION *****************
+2024-05-10 13:30:32,719   INFO  *************** Performance of EPOCH 76 *****************
+2024-05-10 13:30:32,719   INFO  Generate label finished(sec_per_example: 0.2433 second).
+2024-05-10 13:30:32,719   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:30:32,719   INFO  recall_rcnn_0.3: 0.462898
+2024-05-10 13:30:32,719   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:30:32,719   INFO  recall_rcnn_0.5: 0.289753
+2024-05-10 13:30:32,719   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:30:32,719   INFO  recall_rcnn_0.7: 0.084806
+2024-05-10 13:30:32,719   INFO  Average predicted number of objects(56 samples): 18.804
+2024-05-10 13:30:32,789   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:13.1843, 12.7164, 12.5342
+bev  AP:21.8944, 18.9799, 17.2533
+3d   AP:4.3354, 4.0971, 3.7253
+aos  AP:12.74, 12.31, 12.16
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:6.8893, 5.6687, 5.2539
+bev  AP:15.8650, 12.9779, 11.8983
+3d   AP:2.8769, 2.4537, 2.0848
+aos  AP:6.36, 5.27, 4.86
+Car AP@0.70, 0.50, 0.50:
+bbox AP:13.1843, 12.7164, 12.5342
+bev  AP:35.7591, 28.3797, 27.3545
+3d   AP:19.2422, 16.6995, 16.0982
+aos  AP:12.74, 12.31, 12.16
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:6.8893, 5.6687, 5.2539
+bev  AP:32.0619, 24.9722, 23.4120
+3d   AP:13.5090, 11.0211, 10.0484
+aos  AP:6.36, 5.27, 4.86
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.23, 0.23, 0.23
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.4356, 0.4356, 0.4356
+bev  AP:0.4356, 0.4356, 0.4356
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.18, 0.18, 0.18
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.23, 0.23, 0.23
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.4356, 0.4356, 0.4356
+bev  AP:0.4356, 0.4356, 0.4356
+3d   AP:0.4356, 0.4356, 0.4356
+aos  AP:0.18, 0.18, 0.18
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:30:32,789   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_76/val
+2024-05-10 13:30:32,789   INFO  ****************Evaluation done.*****************
+2024-05-10 13:30:32,795   INFO  Epoch 76 has been evaluated
+2024-05-10 13:30:32,795   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_77.pth to GPU
+2024-05-10 13:30:32,840   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:30:32,845   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:30:32,846   INFO  *************** EPOCH 77 EVALUATION *****************
+2024-05-10 13:30:46,628   INFO  *************** Performance of EPOCH 77 *****************
+2024-05-10 13:30:46,629   INFO  Generate label finished(sec_per_example: 0.2461 second).
+2024-05-10 13:30:46,629   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:30:46,629   INFO  recall_rcnn_0.3: 0.455830
+2024-05-10 13:30:46,629   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:30:46,629   INFO  recall_rcnn_0.5: 0.286219
+2024-05-10 13:30:46,629   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:30:46,629   INFO  recall_rcnn_0.7: 0.088339
+2024-05-10 13:30:46,629   INFO  Average predicted number of objects(56 samples): 19.321
+2024-05-10 13:30:46,693   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:13.3117, 13.0741, 12.9009
+bev  AP:21.2413, 17.9621, 17.3808
+3d   AP:4.3687, 4.1351, 3.8410
+aos  AP:12.93, 12.64, 12.49
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:7.0704, 6.2413, 5.5967
+bev  AP:15.5590, 12.5310, 11.9885
+3d   AP:2.6827, 2.5728, 2.2422
+aos  AP:6.56, 5.88, 5.15
+Car AP@0.70, 0.50, 0.50:
+bbox AP:13.3117, 13.0741, 12.9009
+bev  AP:34.1912, 28.3459, 27.2385
+3d   AP:18.7978, 16.5112, 15.9375
+aos  AP:12.93, 12.64, 12.49
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:7.0704, 6.2413, 5.5967
+bev  AP:30.3580, 24.0688, 22.7774
+3d   AP:13.4589, 10.9696, 10.1766
+aos  AP:6.56, 5.88, 5.15
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.24, 0.24, 0.24
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.3992, 0.3992, 0.3992
+bev  AP:0.3992, 0.3992, 0.3992
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.17, 0.17, 0.17
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.24, 0.24, 0.24
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.3992, 0.3992, 0.3992
+bev  AP:0.3992, 0.3992, 0.3992
+3d   AP:0.3992, 0.3992, 0.3992
+aos  AP:0.17, 0.17, 0.17
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:30:46,694   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_77/val
+2024-05-10 13:30:46,694   INFO  ****************Evaluation done.*****************
+2024-05-10 13:30:46,700   INFO  Epoch 77 has been evaluated
+2024-05-10 13:30:46,701   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_78.pth to GPU
+2024-05-10 13:30:46,742   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:30:46,745   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:30:46,746   INFO  *************** EPOCH 78 EVALUATION *****************
+2024-05-10 13:31:00,625   INFO  *************** Performance of EPOCH 78 *****************
+2024-05-10 13:31:00,625   INFO  Generate label finished(sec_per_example: 0.2478 second).
+2024-05-10 13:31:00,625   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:31:00,625   INFO  recall_rcnn_0.3: 0.459364
+2024-05-10 13:31:00,625   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:31:00,625   INFO  recall_rcnn_0.5: 0.286219
+2024-05-10 13:31:00,625   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:31:00,625   INFO  recall_rcnn_0.7: 0.088339
+2024-05-10 13:31:00,626   INFO  Average predicted number of objects(56 samples): 19.161
+2024-05-10 13:31:00,693   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:14.3805, 13.6626, 13.1067
+bev  AP:21.2120, 18.5982, 17.3509
+3d   AP:4.4652, 4.1020, 3.8078
+aos  AP:13.78, 13.17, 12.69
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:7.6938, 7.0923, 6.1846
+bev  AP:15.3916, 12.7974, 12.1254
+3d   AP:2.9485, 2.4609, 2.1974
+aos  AP:7.07, 6.69, 5.72
+Car AP@0.70, 0.50, 0.50:
+bbox AP:14.3805, 13.6626, 13.1067
+bev  AP:34.7931, 27.9394, 26.6721
+3d   AP:18.7079, 16.4227, 15.9239
+aos  AP:13.78, 13.17, 12.69
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:7.6938, 7.0923, 6.1846
+bev  AP:30.8594, 23.9191, 22.2131
+3d   AP:13.0857, 10.8586, 9.8033
+aos  AP:7.07, 6.69, 5.72
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.26, 0.26, 0.26
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.4082, 0.4082, 0.4082
+bev  AP:0.4082, 0.4082, 0.4082
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.17, 0.17, 0.17
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.26, 0.26, 0.26
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.4082, 0.4082, 0.4082
+bev  AP:0.4082, 0.4082, 0.4082
+3d   AP:0.4082, 0.4082, 0.4082
+aos  AP:0.17, 0.17, 0.17
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:31:00,693   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_78/val
+2024-05-10 13:31:00,693   INFO  ****************Evaluation done.*****************
+2024-05-10 13:31:00,698   INFO  Epoch 78 has been evaluated
+2024-05-10 13:31:00,698   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_79.pth to GPU
+2024-05-10 13:31:00,737   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:31:00,740   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:31:00,741   INFO  *************** EPOCH 79 EVALUATION *****************
+2024-05-10 13:31:14,652   INFO  *************** Performance of EPOCH 79 *****************
+2024-05-10 13:31:14,652   INFO  Generate label finished(sec_per_example: 0.2484 second).
+2024-05-10 13:31:14,653   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:31:14,653   INFO  recall_rcnn_0.3: 0.459364
+2024-05-10 13:31:14,653   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:31:14,653   INFO  recall_rcnn_0.5: 0.286219
+2024-05-10 13:31:14,653   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:31:14,653   INFO  recall_rcnn_0.7: 0.084806
+2024-05-10 13:31:14,653   INFO  Average predicted number of objects(56 samples): 19.161
+2024-05-10 13:31:14,721   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:14.4899, 13.8780, 13.3710
+bev  AP:21.2985, 18.5437, 17.3509
+3d   AP:4.6334, 3.9398, 4.0115
+aos  AP:14.08, 13.52, 13.07
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:7.7152, 7.4311, 6.4459
+bev  AP:15.4316, 12.7457, 12.1491
+3d   AP:2.8454, 2.5042, 2.2730
+aos  AP:7.30, 7.07, 6.15
+Car AP@0.70, 0.50, 0.50:
+bbox AP:14.4899, 13.8780, 13.3710
+bev  AP:34.8402, 27.8668, 26.7423
+3d   AP:18.5279, 16.0960, 15.9062
+aos  AP:14.08, 13.52, 13.07
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:7.7152, 7.4311, 6.4459
+bev  AP:30.8674, 24.2216, 22.7026
+3d   AP:12.8653, 10.7256, 9.9697
+aos  AP:7.30, 7.07, 6.15
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.26, 0.26, 0.26
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.4127, 0.4127, 0.4127
+bev  AP:0.4127, 0.4127, 0.4127
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.17, 0.17, 0.17
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.26, 0.26, 0.26
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.4127, 0.4127, 0.4127
+bev  AP:0.4127, 0.4127, 0.4127
+3d   AP:0.4127, 0.4127, 0.4127
+aos  AP:0.17, 0.17, 0.17
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:31:14,721   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_79/val
+2024-05-10 13:31:14,721   INFO  ****************Evaluation done.*****************
+2024-05-10 13:31:14,727   INFO  Epoch 79 has been evaluated
+2024-05-10 13:31:14,728   INFO  ==> Loading parameters from checkpoint /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/ckpt/checkpoint_epoch_80.pth to GPU
+2024-05-10 13:31:14,775   INFO  ==> Checkpoint trained from version: pcdet+0.6.0+8caccce
+2024-05-10 13:31:14,778   INFO  ==> Done (loaded 127/127)
+2024-05-10 13:31:14,779   INFO  *************** EPOCH 80 EVALUATION *****************
+2024-05-10 13:31:28,626   INFO  *************** Performance of EPOCH 80 *****************
+2024-05-10 13:31:28,626   INFO  Generate label finished(sec_per_example: 0.2473 second).
+2024-05-10 13:31:28,626   INFO  recall_roi_0.3: 0.000000
+2024-05-10 13:31:28,626   INFO  recall_rcnn_0.3: 0.459364
+2024-05-10 13:31:28,626   INFO  recall_roi_0.5: 0.000000
+2024-05-10 13:31:28,626   INFO  recall_rcnn_0.5: 0.282686
+2024-05-10 13:31:28,626   INFO  recall_roi_0.7: 0.000000
+2024-05-10 13:31:28,626   INFO  recall_rcnn_0.7: 0.088339
+2024-05-10 13:31:28,626   INFO  Average predicted number of objects(56 samples): 19.411
+2024-05-10 13:31:28,692   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:14.3541, 13.8239, 13.3494
+bev  AP:21.2167, 17.7422, 17.3855
+3d   AP:4.4733, 4.0045, 3.9922
+aos  AP:13.95, 13.44, 13.03
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:7.4805, 6.6738, 6.2102
+bev  AP:15.1784, 12.5450, 12.1282
+3d   AP:2.7288, 2.5451, 2.2320
+aos  AP:7.08, 6.33, 5.91
+Car AP@0.70, 0.50, 0.50:
+bbox AP:14.3541, 13.8239, 13.3494
+bev  AP:34.0765, 27.7919, 26.0830
+3d   AP:18.5143, 16.0532, 15.8889
+aos  AP:13.95, 13.44, 13.03
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:7.4805, 6.6738, 6.2102
+bev  AP:29.6860, 23.4553, 21.8512
+3d   AP:12.6157, 10.6293, 9.9431
+aos  AP:7.08, 6.33, 5.91
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.25, 0.25, 0.25
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.4145, 0.4145, 0.4145
+bev  AP:0.4145, 0.4145, 0.4145
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.17, 0.17, 0.17
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:9.0909, 9.0909, 9.0909
+bev  AP:9.0909, 9.0909, 9.0909
+3d   AP:9.0909, 9.0909, 9.0909
+aos  AP:0.25, 0.25, 0.25
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.4145, 0.4145, 0.4145
+bev  AP:0.4145, 0.4145, 0.4145
+3d   AP:0.4145, 0.4145, 0.4145
+aos  AP:0.17, 0.17, 0.17
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:0.0000, 0.0000, 0.0000
+bev  AP:0.0000, 0.0000, 0.0000
+3d   AP:0.0000, 0.0000, 0.0000
+aos  AP:0.00, 0.00, 0.00
+
+2024-05-10 13:31:28,693   INFO  Result is saved to /home/ez/project/vod/output/astyx_models/pointpillar/astyx_kde510/eval/eval_with_train/epoch_80/val
+2024-05-10 13:31:28,693   INFO  ****************Evaluation done.*****************
+2024-05-10 13:31:28,697   INFO  Epoch 80 has been evaluated

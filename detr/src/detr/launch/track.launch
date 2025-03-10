@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find detr)/rviz/track.rviz"/>
+    <!-- <node pkg="rviz" type="rviz" name="rviz"/> -->
+
+    <node pkg="detr" type="Pose2tfNode.py" name="Pose2tfNode" output="screen" respawn="false" respawn_delay="0">
+    </node>
+
+    <node pkg="detr" type="gnn.py" name="GnnPmbNode" output="screen">
+    </node>
+
+    <node pkg="rosbag" type="play" name="player" output="log" args="-l /home/ez/project/detr/bag/2024-04-16-16-27-12.bag" />
+
+    <node name="detr" type="ros.py" pkg="detr" output="screen"/>
+
+    <node name="data_listener" type="store_track.py" pkg="detr" output="screen"/>
+
+    <node name="image_point_cloud_viewer" type="gui_track.py" pkg="detr" output="screen"/>
+
+
+</launch>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared  -o murty.cpython-38-x86_64-linux-gnu.so CMakeFiles/murty.dir/src/murty.cpp.o  -flto 
