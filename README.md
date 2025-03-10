@@ -39,6 +39,16 @@ eg. `/home/ez/project/detr/bag/2024-04-16-16-27-12.bag`
   <img src="https://github.com/Redamancy8013/rpfanet_gnn/blob/main/track.jpg">
 </div>
 
+#### Visualization
+
+This node only visualizes the images and the relevent point clouds real time.
+
+`roslaunch detr visualization.launch`
+
+<div align="center">
+  <img src="https://github.com/Redamancy8013/rpfanet_gnn/blob/main/visualization.jpg">
+</div>
+
 ## 5.More
 
 This project was accomplished on June 1, 2024 and was first upload to the github on March 10, 2025.
