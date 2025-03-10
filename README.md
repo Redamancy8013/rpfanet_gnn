@@ -1,5 +1,7 @@
 # rpfanet_gnn
 
+This project visualize the object detection and tracking with point clouds only. It uses feature-self-attention mechanism to improve the accuracy of the detection. 
+
 ## Notice
 Before you compile this project, you need to put the rosbag into the proper directory.
 
@@ -26,3 +28,7 @@ roslaunch detr detect.launch
 ### Track
 
 roslaunch detr tracking.launch
+
+## More
+
+This project was accomplished on June 1, 2024 and was first upload to the github on March 10, 2025.
