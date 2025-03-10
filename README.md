@@ -27,9 +27,17 @@ eg. `/home/ez/project/detr/bag/2024-04-16-16-27-12.bag`
 
 `roslaunch detr detect.launch`
 
+<div align="center">
+  <img src="https://github.com/Redamancy8013/rpfanet_gnn/blob/main/detect.jpg">
+</div>
+
 #### Track
 
 `roslaunch detr tracking.launch`
+
+<div align="center">
+  <img src="https://github.com/Redamancy8013/rpfanet_gnn/blob/main/track.jpg">
+</div>
 
 ## 5.More
 
